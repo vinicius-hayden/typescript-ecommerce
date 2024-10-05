@@ -1,6 +1,5 @@
 import Product from "../product/Product";
 
-
 const products : Product[] = [  
     {
         id: 1,
