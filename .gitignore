@@ -34,3 +34,17 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Ignore node_modules in any subdirectory
+**/node_modules/
+
+# Ignore Next.js build output and other frontend-specific files
+**/.next/
+**/.env.local
+**/.cache/
+
+# Ignore build output or dist folders for backend (NestJS)
+**/dist/
+
+# Other common ignores
+.DS_Store
