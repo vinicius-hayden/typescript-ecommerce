@@ -1,4 +1,4 @@
 export default interface Specifications {
-    top: string
-    [key: string] : string
+    title: string
+    [key: string] : string | number | boolean
 }
