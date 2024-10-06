@@ -38,13 +38,13 @@ export default function ProductItem(props: ProductItemProps) {
           </span>
         </div>
         <button className="flex justify-center h-8 gap-2 items-center bg-violet-700 hover:border-2 border-emerald-500 rounded-full"
-        onClick={(e: any) => {
+          onClick={(e: any) => {
             e.preventDefault();
             console.log("Item Added!")
-        }}
+          }}
         >
-            <IconShoppingCartPlus size={20} />
-            <span>Add</span>
+          <IconShoppingCartPlus size={20} />
+          <span>Add</span>
         </button>
       </div>
     </Link>
