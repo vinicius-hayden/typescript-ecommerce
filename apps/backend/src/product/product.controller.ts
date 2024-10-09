@@ -1,5 +1,5 @@
 import { Controller, Get, Param } from '@nestjs/common';
-import { Product, products } from 'src/core';
+import { Product, products } from '@gstore/core';
 
 @Controller('products')
 export class ProductController {

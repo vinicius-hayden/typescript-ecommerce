@@ -1,5 +1,5 @@
 'use client'
-import { Product } from "@/core";
+import { Product } from "@gstore/core";
 import useProducts from "@/data/hooks/useProducts";
 import { useEffect, useState } from "react";
 
