@@ -1,5 +1,7 @@
 import { PrismaClient } from "@prisma/client";
 import { products } from "@gstore/core";;
+import * as dotenv from 'dotenv'
+dotenv.config();
 
 const prisma = new PrismaClient();
 

@@ -1,5 +1,6 @@
 import { Global, Injectable, OnModuleDestroy, OnModuleInit } from '@nestjs/common';
 import { PrismaClient } from '@prisma/client';
+require('dotenv').config();
 
 @Global()
 @Injectable()
