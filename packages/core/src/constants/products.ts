@@ -21,6 +21,12 @@ const products: Product[] = [
     medianPrice: 6503.7,
     specifications: {
       title: "NVIDIA GeForce RTX 2060",
+      Processor: "Intel Core i5-9300H",
+      Memory: "16GB DDR4",
+      Storage: "512GB SSD",
+      "Graphics Card": "NVIDIA GeForce RTX 2060",
+      Screen: '15.6" Full HD',
+      Weight: "2.5 Kg",
     },
   },
   {
@@ -43,6 +49,12 @@ const products: Product[] = [
     medianPrice: 6500,
     specifications: {
       title: "NVIDIA GeForce GTX 1660 Ti",
+      Processor: "Intel Core i7-9750H",
+      Memory: "16GB DDR4",
+      Storage: "1TB HDD + 256GB SSD",
+      "Graphics Card": "NVIDIA GeForce GTX 1660 Ti",
+      Screen: '15.6"  Full HD',
+      Weight: "2.68 Kg",
     },
   },
   {
@@ -65,6 +77,12 @@ const products: Product[] = [
     medianPrice: 6500,
     specifications: {
       title: "NVIDIA GeForce GTX 1660 Ti",
+      Processor: "Intel Core i7-9750H",
+      Memory: "16GB DDR4",
+      Storage: "512GB SSD",
+      "Graphics Card": "NVIDIA GeForce GTX 1660 Ti",
+      Display: "15.6 inches Full HD",
+      Weight: "2.3 Kg",
     },
   },
   {
@@ -87,6 +105,12 @@ const products: Product[] = [
     medianPrice: 5107.9,
     specifications: {
       title: "NVIDIA GeForce GTX 1650",
+      Processor: "Intel Core i5-9300H",
+      Memory: "8GB DDR4",
+      Storage: "256GB SSD",
+      "Graphics Card": "NVIDIA GeForce GTX 1650",
+      Display: "15.6 inches Full HD",
+      Weight: "2.25 Kg",
     },
   },
   {
@@ -109,6 +133,12 @@ const products: Product[] = [
     medianPrice: 5107.9,
     specifications: {
       title: "NVIDIA GeForce RTX 2060",
+      Processor: "AMD Ryzen 7 4800H",
+      Memory: "16GB DDR4",
+      Storage: "512GB SSD",
+      "Graphics Card": "NVIDIA GeForce RTX 2060",
+      Display: "15.6 inches Full HD 144Hz",
+      Weight: "2.3 Kg",
     },
   },
   {
@@ -131,6 +161,12 @@ const products: Product[] = [
     medianPrice: 5107.9,
     specifications: {
       title: "NVIDIA GeForce RTX 2070",
+      Processor: "Intel Core i7-10750H",
+      Memory: "16GB DDR4",
+      Storage: "512GB SSD",
+      "Graphics Card": "NVIDIA GeForce RTX 2070",
+      Display: "15.6 inches Full HD 144Hz",
+      Weight: "2.3 Kg",
     },
   },
   {
@@ -153,6 +189,12 @@ const products: Product[] = [
     medianPrice: 10900.9,
     specifications: {
       title: "NVIDIA GeForce RTX 2070",
+      Processor: "Intel Core i7-10750H",
+      Memory: "16GB DDR4",
+      Storage: "512GB SSD",
+      "Graphics Card": "NVIDIA GeForce RTX 2070",
+      Display: "15.6 inches Full HD 144Hz",
+      Weight: "2.1 Kg",
     },
   },
   {
@@ -175,6 +217,12 @@ const products: Product[] = [
     medianPrice: 5107.9,
     specifications: {
       title: "NVIDIA GeForce RTX 2080 Super",
+      Processor: "Intel Core i7-10875H",
+      Memory: "16GB DDR4",
+      Storage: "1TB SSD",
+      "Graphics Card": "NVIDIA GeForce RTX 2080 Super",
+      Display: "15.6 inches Full HD 240Hz",
+      Weight: "2.5 Kg",
     },
   },
   {
@@ -196,6 +244,15 @@ const products: Product[] = [
     medianPrice: 1699.9,
     specifications: {
       title: "AMD Ryzen 7 5700X3D",
+      "Number of CPU Cores": 8,
+      "Number of Threads": 16,
+      "Max Boost Clock": 4.1,
+      "Basic Clock": 3.0,
+      "L2 Total Cache": "4MB",
+      "L3 Total Cache": "96MB",
+      Socket: "AM4",
+      "Naximum Temperature": "90°C",
+      Weight: "243 g",
     },
   },
   {
@@ -217,6 +274,14 @@ const products: Product[] = [
     medianPrice: 3599.9,
     specifications: {
       title: "Intel Core i9-13900K",
+      "Number of CPU Cores": 24,
+      "Number of Threads": 32,
+      "Max Boost Clock": 5.8,
+      "Basic Clock": 3.0,
+      "L2 Total Cache": "32 MB",
+      "L3 Total Cache": "36 MB",
+      Socket: "LGA 1700",
+      Weight: "101 g",
     },
   },
   {
@@ -238,6 +303,15 @@ const products: Product[] = [
     medianPrice: 4999.9,
     specifications: {
       title: "AMD Ryzen 9 7950X3D",
+      "Number of CPU Cores": 16,
+      "Number of Threads": 32,
+      "Max Boost Clock": 5.7,
+      "Basic Clock": 4.2,
+      "L2 Total Cache": "16 MB",
+      "L3 Total Cache": "128 MB",
+      Socket: "AM5",
+      "Naximum Temperature": "95°C",
+      Weight: "190 g",
     },
   },
   {
@@ -259,6 +333,12 @@ const products: Product[] = [
     medianPrice: 999.99,
     specifications: {
       title: "Switch Razer Green",
+      "Switch Type": "Mechanic",
+      Connectivity: "USB Cable",
+      Backlit: "Razer Chroma RGB",
+      Construction: "Aluminum",
+      "Anti-Ghosting": "Yes, N-Key Rollover",
+      Weight: "1130 g",
     },
   },
   {
@@ -281,6 +361,12 @@ const products: Product[] = [
     medianPrice: 1249.9,
     specifications: {
       title: "Switch Cherry MX Red",
+      "Switch Type": "Mechanic",
+      Connectivity: "USB Cable",
+      Backlit: "RGB each keycap",
+      Construction: "Aluminum",
+      "Anti-Ghosting": "Yes, N-Key Rollover",
+      Weight: "1250 g",
     },
   },
   {
@@ -302,6 +388,13 @@ const products: Product[] = [
     medianPrice: 499.99,
     specifications: {
       title: "Switch Outemu Brown",
+      "Switch Type": "Mechanic",
+      Connectivity: "Bluetooth 5.0 / USB-C Cable",
+      Backlit: "RGB",
+      Construction: "ABS Plastic",
+      Teclas: "61(Layout 60 %)",
+      "Anti-Ghosting": "Yes, N-Key Rollover",
+      Weight: "600 g",
     },
   },
   {
@@ -323,6 +416,13 @@ const products: Product[] = [
     medianPrice: 349.99,
     specifications: {
       title: "HERO 16K / 25K",
+      "Maximum DPI": 25600,
+      Connectivity: "USB Cable",
+      "Progammable Buttons": 6,
+      Backlit: "RGB LIGHTSYNC",
+      "Delay Rate": "1ms",
+      Construction: "ABS and rubber plastic",
+      Weight: "87 g (with adjustable stand of 10g)",
     },
   },
   {
@@ -344,6 +444,13 @@ const products: Product[] = [
     medianPrice: 449.99,
     specifications: {
       title: "Sensor Focus+",
+      "Maximum DPI": 20000,
+      Connectivity: "USB SpeedFlex Cable",
+      "Progammable Buttons": 8,
+      Backlit: "Razer Chroma RGB",
+      "Delay Rate": "0.2ms (switch óptico)",
+      Construction: "ABS Plastic",
+      Weight: "88 g",
     },
   },
   {
@@ -365,6 +472,13 @@ const products: Product[] = [
     medianPrice: 299.99,
     specifications: {
       title: "Pixart Sensor 3389",
+      "Maximum DPI": 16000,
+      Connectivity: "USB Cable",
+      "Progammable Buttons": 6,
+      Backlit: "RGB",
+      "Delay Rate": "1ms",
+      Construction: "ABS Plastic",
+      Weight: "95 g",
     },
   },
   {
@@ -386,6 +500,11 @@ const products: Product[] = [
     medianPrice: 799.99,
     specifications: {
       title: "Surround Virtual 7.1",
+      Drivers: "53mm",
+      Connectivity: "USB / P2 3.5mm",
+      Microphone: "Removable with Noise Cancelling",
+      Compatibility: "PC, PS4, Xbox One",
+      Weight: "320 g",
     },
   },
   {
@@ -407,6 +526,11 @@ const products: Product[] = [
     medianPrice: 269.99,
     specifications: {
       title: "Surround Virtual 7.1",
+      Drivers: "40mm",
+      Connectivity: "P2 3.5mm",
+      Microphone: "Cardioide not removable",
+      Compatibility: "PC, PS4, Xbox One, Switch",
+      Weight: "250 g",
     },
   },
   {
@@ -417,10 +541,10 @@ const products: Product[] = [
     brand: "Samsung",
     model: "LC27G75TQSNXZA",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/formacao-dev.appspot.com/o/lancamentos%2Fgam3rstore%2Fmonitor-gamer-samsung-led-27-odyssey-curvo.png?alt=media&token=98f062fb-4c3a-4e87-895d-61ecdd7f7609",
+      "https://firebasestorage.googleapis.com/v0/b/formacao-dev.appspot.com/o/lancamentos%2Fgam3rstore%2Fmonitor-gamer-samsung-led-27-odyssey-Curved.png?alt=media&token=98f062fb-4c3a-4e87-895d-61ecdd7f7609",
     rating: 4.9,
     videoReview: "https://www.youtube.com/embed/-xrNbdySG-Y",
-    tags: ["240Hz", "Curvo", "G-Sync"],
+    tags: ["240Hz", "Curved", "G-Sync"],
     basePrice: 3499.99,
     salesPrice: 2999.99,
     lowestPrice: 2799.99,
@@ -428,6 +552,12 @@ const products: Product[] = [
     medianPrice: 3299.99,
     specifications: {
       title: "Curved Panel QHD",
+      Tamanho: "27 inches",
+      "Refresh Rate": "240Hz",
+      "Delay Rate": "1ms",
+      Tecnologia: "QLED",
+      Connectivity: "HDMI, DisplayPort, USB",
+      Weight: "6.5 kg",
     },
   },
   {
@@ -438,7 +568,7 @@ const products: Product[] = [
     brand: "LG",
     model: "34GN850-B",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/formacao-dev.appspot.com/o/lancamentos%2Fgam3rstore%2Fmonitor-gamer-lg-ultragear-lg-34-curvo.png?alt=media&token=7f00d9ba-f2ef-416e-bf01-0b84962e099b",
+      "https://firebasestorage.googleapis.com/v0/b/formacao-dev.appspot.com/o/lancamentos%2Fgam3rstore%2Fmonitor-gamer-lg-ultragear-lg-34-Curved.png?alt=media&token=7f00d9ba-f2ef-416e-bf01-0b84962e099b",
     rating: 4.7,
     videoReview: "https://www.youtube.com/embed/YUbQODIro2k",
     tags: ["Ultra-Wide", "144Hz", "G-Sync"],
@@ -449,6 +579,12 @@ const products: Product[] = [
     medianPrice: 2899.99,
     specifications: {
       title: "WQHD Panel",
+      Tamanho: "34 inches",
+      "Refresh Rate": "160Hz",
+      "Delay Rate": "1ms",
+      Tecnologia: "IPS",
+      Connectivity: "HDMI, DisplayPort, USB",
+      Weight: "7.3 kg",
     },
   },
   {
@@ -470,6 +606,10 @@ const products: Product[] = [
     medianPrice: 2199.99,
     specifications: {
       title: "12GB GDDR6",
+      "CUDA Cores": 3584,
+      Connectivity: "HDMI 2.1, DisplayPort 1.4a",
+      TDP: "170 W",
+      Weight: "1.03 kg",
     },
   },
   {
@@ -491,6 +631,10 @@ const products: Product[] = [
     medianPrice: 5999.99,
     specifications: {
       title: "16GB GDDR6",
+      "Stream Processors": 4608,
+      Connectivity: "HDMI 2.1, DisplayPort 1.4",
+      TDP: "300W",
+      Weight: "2,52 kg",
     },
   },
   {
@@ -512,6 +656,9 @@ const products: Product[] = [
     medianPrice: 2899.99,
     specifications: {
       title: "Chipset Z590",
+      Socket: "LGA 1200",
+      RAM: "DDR4 up to 5333MHz",
+      Weight: "1.2 kg",
     },
   },
   {
@@ -533,6 +680,9 @@ const products: Product[] = [
     medianPrice: 1199.99,
     specifications: {
       title: "Chipset B550",
+      Socket: "AM4",
+      RAM: "DDR4 up to 4866MHz",
+      Weight: "2.01 kg",
     },
   },
   {
@@ -554,6 +704,9 @@ const products: Product[] = [
     medianPrice: 599.99,
     specifications: {
       title: "16GB (2x8GB)",
+      Frequency: "3200MHz",
+      Compatibility: "Intel and AMD",
+      Weight: "120 g",
     },
   },
   {
@@ -575,6 +728,9 @@ const products: Product[] = [
     medianPrice: 799.99,
     specifications: {
       title: "32GB (2x16GB)",
+      Frequency: "3200MHz",
+      Compatibility: "Intel and AMD",
+      Weight: "150 g",
     },
   },
   {
@@ -596,6 +752,9 @@ const products: Product[] = [
     medianPrice: 3899.99,
     specifications: {
       title: "Customized SSD",
+      CPU: "AMD Ryzen Zen 2 8 cores",
+      Storage: "1TB SSD",
+      Weight: "4.05 kg",
     },
   },
 ];

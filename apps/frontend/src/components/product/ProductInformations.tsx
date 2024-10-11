@@ -1,5 +1,6 @@
 import { Product } from "@gstore/core"
 import Image from "next/image"
+import ProductSpecifications from "./ProductSpecifications"
 
 export interface ProductInformationProps {
     product: Product
@@ -12,6 +13,7 @@ export default function ProductInformations(props: ProductInformationProps) {
             <div className="flex-1 relative flex justify-center h-96">
                 <Image src={product.image!} fill className="object-cover p-7" alt="Product Image"/>
             </div>
+            <ProductSpecifications product={product}/>
         </div>
     )
 }

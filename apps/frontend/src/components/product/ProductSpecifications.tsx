@@ -13,7 +13,7 @@ export default function ProductSpecifications(props: ProductSpecificationsProps)
             <div className="flex mb-3">
                 <Tag label={product.specifications.title!} icon={IconTag} outlined />
             </div>
-            {product?.specifications &&
+            {product.specifications &&
                 Object.keys(product.specifications)
                     .filter((k) => k !== 'title')
                     .map((key) => (

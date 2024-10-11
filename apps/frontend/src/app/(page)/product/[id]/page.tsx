@@ -3,8 +3,8 @@ import { Product } from "@gstore/core";
 import useProducts from "@/data/hooks/useProducts";
 import { useEffect, useState } from "react";
 import ProductTitle from "@/components/product/ProductTitle";
-import ProductInformation from "@/components/product/ProductInformations";
 import ProductInformations from "@/components/product/ProductInformations";
+import ProductSpecifications from "@/components/product/ProductSpecifications";
 
 export default function ProductPage(props: any) {
     const { getProductById } = useProducts();
@@ -19,11 +19,5 @@ export default function ProductPage(props: any) {
             <ProductTitle product={product}/>
             <ProductInformations product={product}/>
         </div>
-
-        
-
-
-
-
     ) : <div>Product not found</div>
 }
