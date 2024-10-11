@@ -2,6 +2,9 @@
 import { Product } from "@gstore/core";
 import useProducts from "@/data/hooks/useProducts";
 import { useEffect, useState } from "react";
+import ProductTitle from "@/components/product/ProductTitle";
+import ProductInformation from "@/components/product/ProductInformations";
+import ProductInformations from "@/components/product/ProductInformations";
 
 export default function ProductPage(props: any) {
     const { getProductById } = useProducts();
@@ -11,5 +14,16 @@ export default function ProductPage(props: any) {
         getProductById(+props.params.id).then(setProduct);
     }, [props.params.id])
 
-    return product ? (<div>{ product?.name }</div>) : <div>Product not found</div>
+    return product ? (
+        <div className="flex flex-col gap-20">
+            <ProductTitle product={product}/>
+            <ProductInformations product={product}/>
+        </div>
+
+        
+
+
+
+
+    ) : <div>Product not found</div>
 }
